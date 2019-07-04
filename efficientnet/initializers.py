@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-import tensorflow.python.keras.backend as K
+from tensorflow.python.keras import backend as K
 
 from tensorflow.python.keras.initializers import Initializer
 from tensorflow.python.keras.utils.generic_utils import get_custom_objects
