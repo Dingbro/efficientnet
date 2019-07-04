@@ -30,10 +30,10 @@ import six
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
 
-import tf.keras.backend as K
-import tf.keras.models as KM
-import tf.keras.layers as KL
-from tf.keras.utils import get_file
+import tensorflow.pythonkeras.backend as K
+import tensorflow.pythonkeras.models as KM
+import tensorflow.pythonkeras.layers as KL
+from tensorflow.pythonkeras.utils import get_file
 
 from .layers import Swish, DropConnect
 from .params import get_model_params, IMAGENET_WEIGHTS
